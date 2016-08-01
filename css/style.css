@@ -130,27 +130,36 @@ body{
 }
 
 .footer {
-	position: absolute;
-	bottom: 60px;
+	clear: both;
 	height: 40px;
 	width: 968px;
 	margin: 0;
+	margin-top: 600px;
 	padding: 0;
+	position: relative;
+	top: 45px;
 	background: url("../img/panel_footer.jpg");
 }
 
+
 .footer ul{
 	list-style: none;
+	padding-top: 7px;
 }
 
 .footer li{
 	display: inline;
 	line-height:29px;
-	padding-left: 30px;
+	padding-right: 105px;
 	font-family: 'OpenSans', sans-serif;
 	font-size: 13px;
 	color: #2c2c2c;
 	padding-bottom: 15px;
+	margin-left: -20px;
+}
+
+.footer li:last-child{
+float: right;
 }
 
 .footer li a{
