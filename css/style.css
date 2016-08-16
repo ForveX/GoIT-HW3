@@ -9,7 +9,7 @@ body{
 }
 
 .clearfix:after {
-	content: ". "; /* Older browser do not support empty content */
+	content: '. '; /* Older browser do not support empty content */
 	visibility: hidden;
 	display: block;
 	height: 0;
@@ -154,7 +154,7 @@ body{
 	margin: 0;
 	bottom: 55px;
 	padding: 0;
-	background: url("../img/panel_footer.jpg");
+	background: url('../img/panel_footer.jpg');
 }
 
 .footer ul{
