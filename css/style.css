@@ -76,8 +76,8 @@ body{
 
 .btn a:hover {
 	background: url('../img/link.jpg');
-	border-right: 1px solid #ffffff;
-	border-left: 1px solid #ffffff;
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
 }
 
 .sidebar {
@@ -93,13 +93,19 @@ body{
 
 .sidebar li {
 	display: block;
-	border: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
 	width: 240px;
 	height: 38px;
 	font-family: 'OpenSans', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 37px;
+}
+
+.sb-btn{
+	border-top: 1px solid #c8c8c8;
 }
 
 .sidebar a {
